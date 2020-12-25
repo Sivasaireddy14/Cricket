@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cricket</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="jumbotron"  style="background:#5d9c8f; ">
+	<div class="container">
+        <div class="row">
+          <div class="col-4" style="text-align:left;">
+            <label id="pname" style="font-size:25px;">.</label>
+            <label>:</label>
+            <label id="pscore" style="font-size:25px;">0</label>
+          </div>
+          <div class="col-4" style="text-align:center;">
+            <label id="win"></label>
+          </div>
+          <div class="col-4" style="text-align:right;">
+            <label id="cname" style="font-size:25px;">.</label>
+            <label>:</label>
+            <label id="cscore" style="font-size:25px;">0</label>
+	  </div> 
+	 </div>
+        </div>
+      </div>
+	
+<div class="container" id="ground">
+  <div class="row" style="margin-top:30px;">
+    <div class="col-4" style="text-align:center;">
+      <label id="p1" style="font-size:250px;"></label>
+      <br>
+      <button disabled type="button" id="pl2" onclick="bats(); bowls(); out(); inings(); calculate(); target();" style="width:208px;"></button>
+    </div>
+    <div class="col-4" style="text-align:center;">
+      <label id="out" style="font-size:70px;"></label>
+    </div>
+    <div class="col-4" style="text-align:center;">
+      <label id="p2" style="font-size:250px;"></label>
+      <br>
+    </div>
+  </div>
+</div>
+<script src="Cricket.js"></script>
+  </body>
+</html>
