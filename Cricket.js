@@ -34,7 +34,7 @@ if(toss==true){
   else{
     document.getElementById('pname').innerHTML="<b>"+player+"</b>";
   }
-  document.getElementById('cname').innerHTML="<b>Mr.computer</b>";
+  document.getElementById('cname').innerHTML="<b>Mr.Computer</b>";
   document.getElementById('pl2').disabled=false;
   document.getElementById('pl2').innerHTML="BAT";
   document.getElementById('p1').innerHTML="0";
